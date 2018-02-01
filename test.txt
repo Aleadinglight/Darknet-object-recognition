@@ -1,0 +1,9 @@
+/home/tamnguyen/workplace/darknet/data/obj/34.jpg
+/home/tamnguyen/workplace/darknet/data/obj/30.jpg
+/home/tamnguyen/workplace/darknet/data/obj/14.jpg
+/home/tamnguyen/workplace/darknet/data/obj/12.jpg
+/home/tamnguyen/workplace/darknet/data/obj/4.jpg
+/home/tamnguyen/workplace/darknet/data/obj/29.jpg
+/home/tamnguyen/workplace/darknet/data/obj/38.jpg
+/home/tamnguyen/workplace/darknet/data/obj/37.jpg
+/home/tamnguyen/workplace/darknet/data/obj/22.jpg
