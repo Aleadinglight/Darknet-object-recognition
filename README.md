@@ -4,7 +4,9 @@ How to train Darknet to detect custom object on Ubuntu 16.04 LTS, GPU Nvidia 108
 
 ## Prerequisites: CUDA, cuDNN, OpenCV
 
-[Sites Using React](https://github.com/facebook/react/wiki/Sites-Using-React)
+[Installing OpenCV for C and Python](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
+
+[Installing CUDA and cuDNN] (https://yangcha.github.io/GTX-1080/)
 
 ## Cloning the project
 
