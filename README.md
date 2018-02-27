@@ -1,6 +1,6 @@
-# Project Title
+# Darknet object recognition
 
-One Paragraph of project description goes here
+How to train Darknet to detect custom object on Ubuntu 16.04 LTS, GPU Nvidia 1080 Ti and OpenCV supported.
 
 ## Getting Started
 
