@@ -45,7 +45,7 @@ Test to see if it work.
 
 ## Reparing the data
 
-We have to create `.txt`-file for each `.jpg`-image-file - in the same directory and with the same name, but with `.txt`-extension, and put to file: object number and object coordinates on this image, for each object in new line: `<object-class> <x> <y> <width> <height>`
+We have to create `.txt` file for each `.jpg` image file in the same directory and with the same name, but with `.txt` extension, and put to file: object number and object coordinates on this image, for each object in new line: `<object-class> <x> <y> <width> <height>`
 
   Where: 
   * `<object-class>` - integer number of object from `0` to `(classes-1)`
@@ -61,7 +61,7 @@ We have to create `.txt`-file for each `.jpg`-image-file - in the same directory
   1 0.420312 0.395833 0.140625 0.166667
   ```
 
-Let's the [BBox Label Tool](https://github.com/puzzledqs/BBox-Label-Tool). Change line 128 in main.py to your data's directory.
+Let's use the [BBox Label Tool](https://github.com/puzzledqs/BBox-Label-Tool). Change line 128 in main.py to your data's directory.
 
 ```
 128            s = r'D:\workspace\python\labelGUI'
@@ -71,6 +71,19 @@ Let's the [BBox Label Tool](https://github.com/puzzledqs/BBox-Label-Tool). Chang
 ```
 
 The current tool requires that the images to be labeled reside in /Images/001, /Images/002, etc... The coordinate of the bounding box will be in /Labels/001, /Labels/002, etc... This give the coordinate of the bounding box and is still not the right format.
+
+### BBox Label Tool
+
+```
+[category number]
+[bounding box left X] [bounding box top Y] [bounding box right X] [bounding box bottom Y]
+```
+
+### Yolov2 format
+
+```
+[category number] [object center in X] [object center in Y] [object width in X] [object width in Y]
+```
 
 Then write a script to transform these number from the output to the right format. I'll upload it here soon.
 
