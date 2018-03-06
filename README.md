@@ -85,7 +85,7 @@ The current tool requires that the images to be labeled reside in /Images/001, /
 [category number] [object center in X] [object center in Y] [object width in X] [object width in Y]
 ```
 
-Then write a script to transform these number from the output to the right format. I'll upload it here soon.
+Then write a script to transform these number from the output to the right format. Or you can use my script [convert.py](./convert.py) in this repository.
 
 ## Start training
 
